@@ -54,4 +54,10 @@
     </repository>
 
   </repositories>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://localhost:8081/repository/maven-group/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
