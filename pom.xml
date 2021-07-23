@@ -47,12 +47,11 @@
   	</dependency>
   </dependencies>
   <repositories>
-    ...
     <repository>
         <id>maven1</id>
         <name>maven-grp</name>
         <url>http://localhost:8081/repository/maven-group/</url>
     </repository>
-    ...
+
   </repositories>
 </project>
