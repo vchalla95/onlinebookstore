@@ -48,8 +48,8 @@
   </dependencies>
   <repositories>
     <repository>
-        <id>maven1</id>
-        <name>maven-grp</name>
+        <id>maven</id>
+        <name>maven-group</name>
         <url>http://localhost:8081/repository/maven-group/</url>
     </repository>
 
