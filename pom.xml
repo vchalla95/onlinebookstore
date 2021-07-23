@@ -47,9 +47,9 @@
   	</dependency>
   </dependencies>
   <distributionManagement>
-    <releases>
+    <repository>
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/repository/maven-releases/</url>
-    </releases>
+    </repository>
   </distributionManagement>
 </project>
