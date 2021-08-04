@@ -50,18 +50,18 @@
     <repository>
         <id>maven1</id>
         <name>maven-grp</name>
-        <url>http://192.168.233.142:8081/repository/maven-group/</url>
+        <url>http://192.168.233.143:8081/repository/maven-group/</url>
     </repository>
 
   </repositories>
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://192.168.233.142:8081/repository/maven-snapshots/</url>
+      <url>http://192.168.233.143:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-snapshots</id>
-      <url>http://192.168.233.142:8081/repository/maven-releases/</url>
+      <url>http://192.168.233.143:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
