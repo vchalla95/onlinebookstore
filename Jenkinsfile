@@ -22,7 +22,7 @@ pipeline {
         stage("Maven Build") {
             steps {
                 script {
-                    sh "mvn deploy -DskipTests=true"
+                    sh "mvn package -DskipTests=true"
                 }
             }
         }
