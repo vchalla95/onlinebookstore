@@ -15,6 +15,9 @@ pipeline {
             steps {
                 script {
                     git 'https://github.com/vchalla95/onlinebookstore.git';
+                    {
+          checkout([$class: 'GitSCM', branches: [[name: '*/J2EE']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'git-cr', url: 'https://github.com/vchalla95/onlinebookstore.git']]])
+        }
                 }
             }
         }
